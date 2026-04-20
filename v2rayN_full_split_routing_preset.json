@@ -1,0 +1,122 @@
+[
+  {
+    "id": "private-direct",
+    "type": "field",
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:private"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "yandex-direct-geosite",
+    "type": "field",
+    "outboundTag": "direct",
+    "domain": [
+      "geosite:yandex"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "yandex-direct-explicit-base",
+    "type": "field",
+    "outboundTag": "direct",
+    "domain": [
+      "domain:yandex.ru",
+      "domain:yandex.com",
+      "domain:yandex.net",
+      "domain:yandex.kz",
+      "domain:yandex.cloud",
+      "domain:yandexcloud.net",
+      "domain:ya.ru",
+      "domain:ya.cc",
+      "domain:clck.ru",
+      "domain:yastatic.net",
+      "domain:yastatic-net.ru",
+      "domain:yastat.net",
+      "domain:yccdn.ru",
+      "domain:yandexwebcache.net",
+      "domain:yandexwebcache.org"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "yandex-app-direct",
+    "type": "field",
+    "outboundTag": "direct",
+    "domain": [
+      "domain:music.yandex.ru",
+      "domain:radio.yandex.ru",
+      "domain:disk.yandex.ru",
+      "domain:browser.yandex.net",
+      "domain:api.browser.yandex.net",
+      "domain:sync.browser.yandex.net"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "yandex-dns-direct",
+    "type": "field",
+    "outboundTag": "direct",
+    "ip": [
+      "77.88.8.8",
+      "77.88.8.1"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bitrix-direct",
+    "type": "field",
+    "outboundTag": "direct",
+    "domain": [
+      "domain:bitrix24.ru",
+      "domain:bitrix24.com",
+      "domain:bitrix24.net",
+      "domain:bitrix.info",
+      "domain:1c-bitrix.ru"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "microsoft-powerbi-direct",
+    "type": "field",
+    "outboundTag": "direct",
+    "domain": [
+      "domain:login.microsoftonline.com",
+      "domain:login.live.com",
+      "domain:aadcdn.msftauth.net",
+      "domain:aadcdn.msauth.net",
+      "domain:msftauth.net",
+      "domain:msauth.net",
+      "domain:api.powerbi.com",
+      "domain:app.powerbi.com",
+      "domain:analysis.windows.net",
+      "domain:powerbi.com",
+      "domain:office.com",
+      "domain:ecs.office.com",
+      "domain:recent.svc.cloud.microsoft",
+      "domain:roaming.svc.cloud.microsoft"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "store-licensing-direct",
+    "type": "field",
+    "outboundTag": "direct",
+    "domain": [
+      "domain:displaycatalog.mp.microsoft.com",
+      "domain:collections.mp.microsoft.com",
+      "domain:collections.md.mp.microsoft.com",
+      "domain:licensing.mp.microsoft.com",
+      "domain:slscr.update.microsoft.com"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "all-other-proxy",
+    "type": "field",
+    "port": "0-65535",
+    "outboundTag": "proxy",
+    "enabled": true
+  }
+]
