@@ -21,7 +21,8 @@ Microsoft login / Power BI и связанные служебные адреса
 
 ***
 
-**Как тестировать:**
+## Как тестировать:
+
 1. Импортировать JSON как новый routing profile
 2. Перезапустить v2rayN
 3. Запустить от имени администратора
@@ -29,8 +30,22 @@ Microsoft login / Power BI и связанные служебные адреса
 5. Если приложение Яндекс Музыка или Power BI все равно не ловятся, включить TUN и протестировать еще раз
 6. Не переключать системный прокси туда-сюда во время теста
 
+## Как импортировать пресет
+
+1. Откройте **v2rayN**
+2. Перейдите в **Routing Settings**
+3. Нажмите **Add Rule**
+4. Нажмите **Import Rules From File**
+5. Выберите JSON-файл пресета
+6. Подтвердите импорт
+7. Выберите импортированный профиль маршрутизации в главном окне v2rayN
+
+<p align="center">
+  <img src="v2RayN.jpg" alt="Как импортировать пресет - How to import routing rules in v2rayN" width="600">
+</p>
 
 ***
 
 **v2rayN Split routing presets:**
 Ready-to-import split routing presets for v2rayN on Windows. Route Yandex, Bitrix24, Microsoft login and Power BI directly while keeping other traffic on proxy.
+These are popular Russian services widely used in Russia, so I do not believe they require any additional explanation in English.
